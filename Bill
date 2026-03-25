@@ -1,0 +1,5 @@
+price = float(input("enter price"))
+qty = int(input("enter quantity"))
+total = price*qty
+gst = total*0.05
+print("final bill:",total+gst)
